@@ -34,4 +34,6 @@ Run the app:
 npm run start
 
 ```
+### demo
+[demo of the app](https://vanillajs-mvc.herokuapp.com/)
 
