@@ -8,11 +8,11 @@ Based on front end challenge, I've create an app based on MVC pattern in vanilla
 
 Not suitable for production, this is just an implementation of my understanding how mvc frameworks/spa works. 
 
-###Requirement
+### Requirement
 
 For the App to work, [node 8.9.4](https://nodejs.org/en/) must be installed.
 
-###usage
+### usage
 
 download the repo or
 
