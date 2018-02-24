@@ -35,5 +35,5 @@ npm run start
 
 ```
 ### demo
-[demo of the app](https://vanillajs-mvc.herokuapp.com/)
+[Click Here](https://vanillajs-mvc.herokuapp.com/)
 
