@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Vanilla Javascript MVC</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Merriweather" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="profile-background">
+                <h1>Top Videos Feed</h1>
+            </div>
+            <footer class="profile-footer"></footer>
+        </header>
+        <main>
+            <div class="feed-container">
+                <div class="filter-bar">
+                    <div class="select-container">
+                        <label for="popular">Popular: </label>
+                        <select id="popular">
+                            <option selected disabled>All</option>
+                            <option value="followers">Followers</option>
+                            <option value="postPlays">Most Played</option>
+                            <option value="postComments">Most Commented</option>
+                            <option value="userLikes">Author popularity</option>
+                        </select>
+                    </div>
+                    <div class="select-container">
+                        <label for="by_title">Title: </label>
+                        <select id="by_title">
+                            <option selected disabled>All</option>
+                            <option value="title">Ascending</option>
+                            <option value="titleDes">Descending</option>
+                        </select>
+                    </div>
+                    <div class="select-container">
+                        <label for="by_posts">Posts:</label>
+                        <select id="by_posts">
+                            <option selected disabled>All</option>
+                            <option value="10">10</option>
+                            <option value="25">20</option>
+                            <option value="50">50</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="feed">
+                    <div class="loader"><div></div><div></div><div></div></div>
+                </div>
+                    <div class="pagination-wrapper">
+                        <svg class="btn btn--prev" data-button="prev" height="64" viewBox="0 0 24 24" width="64" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z" />
+                            <path d="M0-.5h24v24H0z" fill="none" />
+                        </svg>
+                        <div class="pagination-counter">
+                         
+                        </div>
+                        <svg class="btn btn--next" data-button="next" height="64" viewBox="0 0 24 24" width="64" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" />
+                            <path d="M0-.25h24v24H0z" fill="none" />
+                        </svg>
+                    </div>
+            </div>
+        </main>
+        <footer class="footer">
+            All rights are reserved
+        </footer>
+    </div>
+    <!--<script type="text/javascript" src="mvcEx.js"></script> -->
+    <script src="assets/js/vendor/lz-string.js" type="text/javascript"></script>
+    <script src="assets/js/lib/router.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/lib/model.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/lib/template.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/lib/views.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/lib/controller.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/lib/animation.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

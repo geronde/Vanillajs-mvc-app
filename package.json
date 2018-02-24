@@ -1,0 +1,14 @@
+{
+  "name": "vanillaspa",
+  "version": "1.0.0",
+  "description": "A vanilla es6 js MVC application from scratch with no framework",
+  "main": "",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "L",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
